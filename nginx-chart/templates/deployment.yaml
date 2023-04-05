@@ -29,4 +29,4 @@ spec:
       volumes:
         - name: nginx-index-file
           configMap:
-            name: index-html-configmap
+            name: {{ .Release.Name }}-index-html-configmap
