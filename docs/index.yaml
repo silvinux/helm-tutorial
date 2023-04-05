@@ -2,7 +2,19 @@ apiVersion: v1
 entries:
   frontend-nginx:
   - apiVersion: v2
-    created: "2023-04-05T18:34:12.600592598+02:00"
+    created: "2023-04-05T18:37:07.646300362+02:00"
+    description: My First Helm Chart
+    digest: 807b505bd451a0468bdaecd61447c9ee5db714c85f7477adbf58829887594177
+    maintainers:
+    - email: helmdeployment@mail
+      name: rh
+    name: frontend-nginx
+    type: application
+    urls:
+    - https://silvinux.github.io/helm-tutorial/docs/frontend-nginx-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
+    created: "2023-04-05T18:37:07.646050698+02:00"
     description: My First Helm Chart
     digest: 87536b3a33844998c8698b545a1f8385241ecdf17d49f4a0fe4883db4d4d97c8
     maintainers:
@@ -14,7 +26,7 @@ entries:
     - https://silvinux.github.io/helm-tutorial/docs/frontend-nginx-0.1.4.tgz
     version: 0.1.4
   - apiVersion: v2
-    created: "2023-04-05T18:34:12.600293813+02:00"
+    created: "2023-04-05T18:37:07.645805563+02:00"
     description: My First Helm Chart
     digest: 682fe1ee67c7c134c3f20193f4e3769985dd54ed1f5774dd5627801a02df957e
     maintainers:
@@ -26,7 +38,7 @@ entries:
     - https://silvinux.github.io/helm-tutorial/docs/frontend-nginx-0.1.3.tgz
     version: 0.1.3
   - apiVersion: v2
-    created: "2023-04-05T18:34:12.600027359+02:00"
+    created: "2023-04-05T18:37:07.645531838+02:00"
     description: My First Helm Chart
     digest: 4a38a0696669bb456ab81551bd0c54bdbfa62ce2696e3327824649cc882f6d5a
     maintainers:
@@ -39,7 +51,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2023-04-05T18:34:12.599756362+02:00"
+    created: "2023-04-05T18:37:07.645279554+02:00"
     description: My First Helm Chart
     digest: 9474dd7d3061344eb085394d7f6be706a7b626ed2e925e1201abc8046eb11b48
     maintainers:
@@ -52,7 +64,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-04-05T18:34:12.599442306+02:00"
+    created: "2023-04-05T18:37:07.645016839+02:00"
     description: My First Helm Chart
     digest: 4d71e865754270d5c357f70403f7c8189908faba3054f9daaa7261ffb1b57827
     maintainers:
@@ -63,4 +75,4 @@ entries:
     urls:
     - https://silvinux.github.io/helm-tutorial/docs/frontend-nginx-0.1.0.tgz
     version: 0.1.0
-generated: "2023-04-05T18:34:12.599063685+02:00"
+generated: "2023-04-05T18:37:07.64461768+02:00"
