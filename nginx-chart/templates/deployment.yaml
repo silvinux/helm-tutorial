@@ -15,8 +15,8 @@ spec:
       labels:
         app: nginx
     spec:
-    serviceAccount: {{ .Release.Name }}-sa
-    serviceAccountName: {{ .Release.Name }}-sa
+      serviceAccount: {{ .Release.Name }}-sa
+      serviceAccountName: {{ .Release.Name }}-sa
       containers:
         - name: {{ .Chart.Name }}
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
