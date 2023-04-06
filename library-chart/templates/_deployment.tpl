@@ -23,8 +23,8 @@ spec:
         {{- include "library-chart.selectorLabels" . | nindent 8 }}
         app: nginx
     spec:
-      serviceAccount: {{ include "library-chart.serviceAccountName" . }}
-      serviceAccountName: {{ include "library-chart.serviceAccountName" . }}
+      serviceAccount: {{ .Release.Name }}-sa
+      serviceAccountName: {{ .Release.Name }}-sa
       securityContext:
         {{- toYaml .Values.podSecurityContext | nindent 8 }}
       containers:
