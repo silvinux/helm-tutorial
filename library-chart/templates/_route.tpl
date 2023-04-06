@@ -13,3 +13,4 @@ spec:
     kind: Service
     name: {{ .Release.Name }}-service
     weight: 100
+{{- end }}

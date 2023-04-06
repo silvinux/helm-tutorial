@@ -6,3 +6,4 @@ metadata:
   namespace: {{ .Values.namespace.name }}
   labels:
     app: nginx
+{{- end }}

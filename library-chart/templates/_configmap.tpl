@@ -11,3 +11,4 @@ data:
     </br>
     <h1>Hi! I got deployed in {{ .Values.env.name }} Environment using Helm Chart {{ .Chart.Name }}-{{ .Chart.Version }} </h1>
     </html
+{{- end }}

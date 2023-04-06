@@ -1,17 +1,17 @@
 ---
-{{- include "mylibchart.configmap" . }}
+{{- include "library-chart.configmap" . }}
 ---
-{{- include "mylibchart.deployment" . }}
+{{- include "library-chart.deployment" . }}
 ---
-{{- include "mylibchart.namespace" . }}
+{{- include "library-chart.namespace" . }}
 ---
-{{- include "mylibchart.role" . }}
+{{- include "library-chart.role" . }}
 ---
-{{- include "mylibchart.rolebinding" . }}
+{{- include "library-chart.rolebinding" . }}
 ---
-{{- include "mylibchart.route" . }}
+{{- include "library-chart.route" . }}
 ---
-{{- include "mylibchart.serviceaccount" . }}
+{{- include "library-chart.serviceaccount" . }}
 ---
-{{- include "mylibchart.service" . }}
+{{- include "library-chart.service" . }}
 ---

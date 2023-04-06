@@ -13,4 +13,4 @@ rules:
   - securitycontextconstraints
   verbs:
   - use
-
+{{- end }}

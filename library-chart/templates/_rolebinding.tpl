@@ -11,3 +11,4 @@ roleRef:
   kind: Role
   name: {{ .Release.Name }}-role
   apiGroup: rbac.authorization.k8s.io
+{{- end }}

@@ -6,3 +6,4 @@ metadata:
     argocd.argoproj.io/managed-by: openshift-gitops
   name: {{ .Values.namespace.name }}
 ...
+{{- end }}

@@ -44,3 +44,4 @@ spec:
         - name: nginx-index-file
           configMap:
             name: {{ .Release.Name }}-index-html-configmap
+{{- end }}
