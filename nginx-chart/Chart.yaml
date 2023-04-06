@@ -8,5 +8,5 @@ maintainers:
   name: rh
 dependencies:
   - name: library-chart
-    version: 1.0.0
-    repository: file://../library-chart
+    version: "^1.0.x"
+    repository: "https://automationiberia.github.io/library-demo/"
