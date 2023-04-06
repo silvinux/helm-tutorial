@@ -21,11 +21,9 @@ From there, I can do a `helm repo add helm-tutorials https://silvinux.github.io/
 
 
 ### Building using Library:
-
-helm package library-chart 
-
-helm dependency build nginx-chart
-
-helm template nginx-chart nginx-chart
-
-helm package nginx-chart
+```
+$ helm package library-chart 
+$ helm dependency build nginx-chart
+$ helm template nginx-chart nginx-chart
+$ helm package nginx-chart
+```
