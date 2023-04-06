@@ -1,3 +1,4 @@
+{{ define "library-chart.route" }}
 apiVersion: route.openshift.io/v1
 kind: Route
 metadata:

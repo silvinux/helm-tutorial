@@ -1,3 +1,4 @@
+{{ define "library-chart.serviceaccount" }}
 apiVersion: v1
 kind: ServiceAccount
 metadata:

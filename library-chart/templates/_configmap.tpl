@@ -1,3 +1,4 @@
+{{ define "library-chart.configmap" }}
 apiVersion: v1
 kind: ConfigMap
 metadata:

@@ -1,3 +1,4 @@
+{{ define "library-chart.role" }}
 apiVersion: rbac.authorization.k8s.io/v1
 kind: Role
 metadata:
