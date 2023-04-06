@@ -5,23 +5,19 @@ metadata:
 spec:
   destination:
     name: ''
-    namespace: helm-tutorial
+    namespace: ''
     server: 'https://kubernetes.default.svc'
   source:
     path: nginx-chart
     repoURL: 'https://github.com/silvinux/helm-tutorial.git'
-    targetRevision: gh-pages
+    targetRevision: nacho
     helm:
       valueFiles:
         - values.yaml
-      parameters:
-        - name: image.tag
-          value: 1.16.0
   sources: []
   project: default
   syncPolicy:
     automated:
       prune: true
       selfHeal: true
-    syncOptions:
-      - CreateNamespace=true
+    syncOptions: []

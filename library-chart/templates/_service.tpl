@@ -2,10 +2,9 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: {{ include "library-chart.fullname" . }}
+  name: {{ .Release.Name }}-service
   namespace: {{ .Values.namespace.name }}
   labels:
-    app: nginx
     {{- include "library-chart.labels" . | nindent 4 }}
 spec:
   type: {{ .Values.service.type }}
