@@ -16,7 +16,7 @@ spec:
         - values.yaml
       parameters:
         - name: image.tag
-          value: 0.1.x
+          value: 0.1.6
   sources: []
   project: default
   syncPolicy:
